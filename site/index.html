@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ArmanTech — Software & AI Development | أرمان تك</title>
+  <meta name="description" content="ArmanTech is an Oman-based software house building custom software and AI solutions — from strategy and consulting to production-grade engineering.">
+  <meta property="og:title" content="ArmanTech — Software & AI Development">
+  <meta property="og:description" content="Custom software and AI solutions, engineered in Oman for the world.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://armantech.om">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="aurora" aria-hidden="true">
+    <div class="aurora-blob aurora-1"></div>
+    <div class="aurora-blob aurora-2"></div>
+    <div class="aurora-blob aurora-3"></div>
+  </div>
+  <div class="grid-overlay" aria-hidden="true"></div>
+
+  <header class="nav" id="top">
+    <div class="container nav-inner">
+      <a class="logo" href="#top" aria-label="ArmanTech">
+        <span class="logo-mark" aria-hidden="true">
+          <svg viewBox="0 0 32 32" width="30" height="30" fill="none">
+            <path d="M16 3 29 27H3L16 3Z" stroke="url(#lg)" stroke-width="2.5" stroke-linejoin="round"/>
+            <circle cx="16" cy="19.5" r="3" fill="url(#lg)"/>
+            <defs>
+              <linearGradient id="lg" x1="3" y1="27" x2="29" y2="3">
+                <stop stop-color="#22d3ee"/><stop offset="1" stop-color="#a78bfa"/>
+              </linearGradient>
+            </defs>
+          </svg>
+        </span>
+        <span class="logo-text">Arman<span class="logo-accent">Tech</span></span>
+      </a>
+      <nav class="nav-links" aria-label="Main">
+        <a href="#services" data-i18n="nav.services">Services</a>
+        <a href="#process" data-i18n="nav.process">Process</a>
+        <a href="#about" data-i18n="nav.about">About</a>
+        <a href="#contact" data-i18n="nav.contact">Contact</a>
+      </nav>
+      <div class="nav-actions">
+        <button class="lang-toggle" id="langToggle" aria-label="Switch language">
+          <span class="lang-opt" data-lang-label="en">EN</span>
+          <span class="lang-divider">/</span>
+          <span class="lang-opt" data-lang-label="ar">عربي</span>
+        </button>
+        <a class="btn btn-primary btn-sm" href="#contact" data-i18n="nav.cta">Start a project</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- ============ HERO ============ -->
+    <section class="hero">
+      <div class="container hero-inner">
+        <p class="eyebrow reveal">
+          <span class="pulse-dot" aria-hidden="true"></span>
+          <span data-i18n="hero.eyebrow">Software &amp; AI studio — Muscat, Oman</span>
+        </p>
+        <h1 class="hero-title reveal">
+          <span data-i18n="hero.title1">We build intelligent</span><br>
+          <span class="gradient-text" data-i18n="hero.title2">software that ships.</span>
+        </h1>
+        <p class="hero-sub reveal" data-i18n="hero.sub">
+          ArmanTech designs and engineers custom software and AI systems —
+          from strategy and consulting to production-grade products your business runs on.
+        </p>
+        <div class="hero-cta reveal">
+          <a class="btn btn-primary" href="#contact" data-i18n="hero.cta1">Let’s talk</a>
+          <a class="btn btn-ghost" href="#services" data-i18n="hero.cta2">Explore services</a>
+        </div>
+        <div class="hero-stats reveal">
+          <div class="stat">
+            <span class="stat-num gradient-text">AI</span>
+            <span class="stat-label" data-i18n="hero.stat1">LLM &amp; ML expertise</span>
+          </div>
+          <div class="stat-sep" aria-hidden="true"></div>
+          <div class="stat">
+            <span class="stat-num gradient-text">E2E</span>
+            <span class="stat-label" data-i18n="hero.stat2">Idea to production</span>
+          </div>
+          <div class="stat-sep" aria-hidden="true"></div>
+          <div class="stat">
+            <span class="stat-num gradient-text">OM</span>
+            <span class="stat-label" data-i18n="hero.stat3">Built in Oman, global reach</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SERVICES ============ -->
+    <section class="section" id="services">
+      <div class="container">
+        <p class="section-eyebrow reveal" data-i18n="services.eyebrow">What we do</p>
+        <h2 class="section-title reveal" data-i18n="services.title">Capabilities that cover the full stack</h2>
+        <p class="section-sub reveal" data-i18n="services.sub">
+          One team, end to end — strategy, design, engineering, and operations.
+        </p>
+        <div class="cards">
+          <article class="card reveal">
+            <div class="card-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M8 9l-4 3 4 3M16 9l4 3-4 3M13 6l-2 12"/>
+              </svg>
+            </div>
+            <h3 data-i18n="services.s1.title">Custom Software Development</h3>
+            <p data-i18n="services.s1.body">Web platforms, APIs, and internal tools built to your exact workflow — clean architecture, tested, and ready to scale.</p>
+          </article>
+          <article class="card reveal">
+            <div class="card-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 2a4 4 0 014 4c2.2.5 4 2.4 4 4.8 0 1.4-.6 2.7-1.5 3.6.3.6.5 1.3.5 2.1a4.5 4.5 0 01-4.5 4.5c-1 0-1.9-.3-2.5-.9-.6.6-1.5.9-2.5.9A4.5 4.5 0 015 16.5c0-.8.2-1.5.5-2.1A4.9 4.9 0 014 10.8C4 8.4 5.8 6.5 8 6a4 4 0 014-4z"/>
+                <path d="M12 6v12M9 12h6"/>
+              </svg>
+            </div>
+            <h3 data-i18n="services.s2.title">AI Development</h3>
+            <p data-i18n="services.s2.body">LLM-powered products, intelligent agents, RAG pipelines, and machine-learning systems — engineered for reliability, not demos.</p>
+          </article>
+          <article class="card reveal">
+            <div class="card-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 3v3M12 18v3M3 12h3M18 12h3M5.6 5.6l2.1 2.1M16.3 16.3l2.1 2.1M18.4 5.6l-2.1 2.1M7.7 16.3l-2.1 2.1"/>
+                <circle cx="12" cy="12" r="4"/>
+              </svg>
+            </div>
+            <h3 data-i18n="services.s3.title">AI Consulting &amp; Strategy</h3>
+            <p data-i18n="services.s3.body">We map where AI actually pays off in your business, design the roadmap, and de-risk adoption with rapid proofs of value.</p>
+          </article>
+          <article class="card reveal">
+            <div class="card-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="5" y="2" width="14" height="20" rx="3"/>
+                <path d="M10 18.5h4"/>
+              </svg>
+            </div>
+            <h3 data-i18n="services.s4.title">Web &amp; Mobile Apps</h3>
+            <p data-i18n="services.s4.body">Fast, polished products across web, iOS, and Android — designed for humans and built with modern frameworks.</p>
+          </article>
+          <article class="card reveal">
+            <div class="card-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M17.5 18a4.5 4.5 0 100-9 6 6 0 00-11.4 1.6A3.8 3.8 0 006.8 18h10.7z"/>
+              </svg>
+            </div>
+            <h3 data-i18n="services.s5.title">Cloud &amp; DevOps</h3>
+            <p data-i18n="services.s5.body">Infrastructure as code, CI/CD, and observability — secure, automated deployments that keep your product always on.</p>
+          </article>
+          <article class="card reveal">
+            <div class="card-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <ellipse cx="12" cy="5.5" rx="7" ry="2.8"/>
+                <path d="M5 5.5v6c0 1.5 3.1 2.8 7 2.8s7-1.3 7-2.8v-6M5 11.5v6c0 1.5 3.1 2.8 7 2.8s7-1.3 7-2.8v-6"/>
+              </svg>
+            </div>
+            <h3 data-i18n="services.s6.title">Data Engineering</h3>
+            <p data-i18n="services.s6.body">Pipelines, warehouses, and dashboards that turn scattered data into decisions — and into fuel for your AI systems.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PROCESS ============ -->
+    <section class="section" id="process">
+      <div class="container">
+        <p class="section-eyebrow reveal" data-i18n="process.eyebrow">How we work</p>
+        <h2 class="section-title reveal" data-i18n="process.title">A process built for momentum</h2>
+        <div class="steps">
+          <div class="step reveal">
+            <span class="step-num">01</span>
+            <h3 data-i18n="process.p1.title">Discover</h3>
+            <p data-i18n="process.p1.body">We dig into your goals, constraints, and data to define what success actually looks like.</p>
+          </div>
+          <div class="step reveal">
+            <span class="step-num">02</span>
+            <h3 data-i18n="process.p2.title">Design</h3>
+            <p data-i18n="process.p2.body">Architecture, UX, and a lean roadmap — the shortest credible path to value.</p>
+          </div>
+          <div class="step reveal">
+            <span class="step-num">03</span>
+            <h3 data-i18n="process.p3.title">Build</h3>
+            <p data-i18n="process.p3.body">Short iterations, working software every week, and total transparency along the way.</p>
+          </div>
+          <div class="step reveal">
+            <span class="step-num">04</span>
+            <h3 data-i18n="process.p4.title">Scale</h3>
+            <p data-i18n="process.p4.body">Launch, monitor, and evolve — we stay with you as the product and the business grow.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ ABOUT ============ -->
+    <section class="section" id="about">
+      <div class="container about-grid">
+        <div class="about-text">
+          <p class="section-eyebrow reveal" data-i18n="about.eyebrow">Who we are</p>
+          <h2 class="section-title reveal" data-i18n="about.title">Engineered in Oman. Built for the world.</h2>
+          <p class="section-sub reveal about-body" data-i18n="about.body">
+            ArmanTech is a software house headquartered in Muscat. We partner with startups,
+            enterprises, and government teams across the Gulf and beyond — combining deep
+            engineering craft with a pragmatic, business-first approach to AI. No buzzwords,
+            no bloat: just software that works and keeps working.
+          </p>
+          <ul class="checks reveal">
+            <li data-i18n="about.c1">Senior engineers on every project</li>
+            <li data-i18n="about.c2">Bilingual delivery — Arabic and English</li>
+            <li data-i18n="about.c3">Security and privacy by default</li>
+            <li data-i18n="about.c4">Long-term partnership, not one-off gigs</li>
+          </ul>
+        </div>
+        <div class="about-panel reveal" aria-hidden="true">
+          <div class="terminal">
+            <div class="terminal-bar"><span></span><span></span><span></span></div>
+            <pre class="terminal-body"><code><span class="t-dim">$</span> armantech <span class="t-cyan">deploy</span> --prod
+<span class="t-dim">→</span> building product...........<span class="t-green">done</span>
+<span class="t-dim">→</span> training model.............<span class="t-green">done</span>
+<span class="t-dim">→</span> shipping value.............<span class="t-green">done</span>
+<span class="t-violet">✦</span> your business, upgraded.</code></pre>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="contact-card reveal">
+          <h2 class="contact-title" data-i18n="contact.title">Have an idea? Let’s build it.</h2>
+          <p class="contact-sub" data-i18n="contact.sub">
+            Tell us about your project — we’ll get back to you within one business day.
+          </p>
+          <a class="btn btn-primary btn-lg" href="mailto:team@armantech.om" data-i18n="contact.cta">team@armantech.om</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <span class="footer-brand">Arman<span class="logo-accent">Tech</span></span>
+      <span class="footer-copy"><span data-i18n="footer.rights">© 2026 ArmanTech. All rights reserved.</span> · <span data-i18n="footer.loc">Muscat, Sultanate of Oman</span></span>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
