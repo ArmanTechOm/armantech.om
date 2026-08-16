@@ -4,6 +4,7 @@
 
   var translations = {
     en: {
+      "nav.ai": "AI Solutions",
       "nav.services": "Services",
       "nav.process": "Process",
       "nav.about": "About",
@@ -65,6 +66,7 @@
     },
 
     ar: {
+      "nav.ai": "حلول الذكاء الاصطناعي",
       "nav.services": "خدماتنا",
       "nav.process": "منهجيتنا",
       "nav.about": "من نحن",
@@ -145,6 +147,8 @@
 
     var blogLink = document.querySelector('[data-i18n="nav.blog"]');
     if (blogLink) blogLink.href = lang === "ar" ? "/blog/ar/" : "/blog/";
+    var aiLink = document.querySelector('[data-i18n="nav.ai"]');
+    if (aiLink) aiLink.href = lang === "ar" ? "/ai-solutions/ar/" : "/ai-solutions/";
 
     document.querySelectorAll("[data-lang-label]").forEach(function (el) {
       el.classList.toggle("active", el.getAttribute("data-lang-label") === lang);

@@ -334,3 +334,36 @@ html[lang="ar"] .section-title { letter-spacing: 0; }
 .back-link:hover { color: var(--text); }
 
 @media (max-width: 900px) { .blog-grid { grid-template-columns: 1fr; } }
+
+/* ===== AI Solutions page ===== */
+.steps-3 { grid-template-columns: repeat(3, 1fr); }
+@media (max-width: 900px) { .steps-3 { grid-template-columns: 1fr; } }
+
+.lead-form { display: grid; gap: 16px; max-width: 560px; margin: 0 auto; text-align: start; }
+.lead-form label { font-size: 0.9rem; color: var(--text-dim); display: grid; gap: 7px; }
+.lead-form input, .lead-form select, .lead-form textarea {
+  width: 100%; padding: 13px 16px; border-radius: 12px;
+  background: rgba(255,255,255,0.05); border: 1px solid var(--border);
+  color: var(--text); font: inherit; outline: none;
+  transition: border-color 0.2s;
+}
+.lead-form input:focus, .lead-form select:focus, .lead-form textarea:focus { border-color: var(--cyan); }
+.lead-form textarea { min-height: 100px; resize: vertical; }
+.lead-form select { appearance: none; }
+.form-actions { display: flex; gap: 12px; flex-wrap: wrap; margin-top: 6px; }
+
+.btn-wa {
+  background: #25d366; color: #06120a; border-color: transparent;
+  box-shadow: 0 8px 30px rgba(37, 211, 102, 0.25);
+}
+.btn-wa:hover { transform: translateY(-2px); box-shadow: 0 12px 40px rgba(37, 211, 102, 0.4); }
+
+.wa-fab {
+  position: fixed; bottom: 26px; inset-inline-end: 26px; z-index: 60;
+  width: 58px; height: 58px; border-radius: 50%;
+  display: grid; place-items: center;
+  background: #25d366; color: #fff;
+  box-shadow: 0 10px 30px rgba(37, 211, 102, 0.45);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+.wa-fab:hover { transform: scale(1.08); box-shadow: 0 14px 40px rgba(37, 211, 102, 0.6); }
