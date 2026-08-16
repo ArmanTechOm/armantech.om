@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://www.armantech.om/</loc>
     <lastmod>2026-08-16</lastmod>
@@ -11,23 +12,63 @@
     <lastmod>2026-08-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.armantech.om/blog/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.armantech.om/blog/ar/"/>
+  </url>
+  <url>
+    <loc>https://www.armantech.om/blog/ar/</loc>
+    <lastmod>2026-08-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.armantech.om/blog/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.armantech.om/blog/ar/"/>
   </url>
   <url>
     <loc>https://www.armantech.om/blog/ai-adoption-oman-guide/</loc>
     <lastmod>2026-08-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.armantech.om/blog/ai-adoption-oman-guide/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.armantech.om/blog/ar/ai-adoption-oman-guide/"/>
+  </url>
+  <url>
+    <loc>https://www.armantech.om/blog/ar/ai-adoption-oman-guide/</loc>
+    <lastmod>2026-08-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.armantech.om/blog/ai-adoption-oman-guide/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.armantech.om/blog/ar/ai-adoption-oman-guide/"/>
   </url>
   <url>
     <loc>https://www.armantech.om/blog/custom-software-development-cost-oman/</loc>
     <lastmod>2026-08-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.armantech.om/blog/custom-software-development-cost-oman/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.armantech.om/blog/ar/custom-software-development-cost-oman/"/>
+  </url>
+  <url>
+    <loc>https://www.armantech.om/blog/ar/custom-software-development-cost-oman/</loc>
+    <lastmod>2026-08-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.armantech.om/blog/custom-software-development-cost-oman/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.armantech.om/blog/ar/custom-software-development-cost-oman/"/>
   </url>
   <url>
     <loc>https://www.armantech.om/blog/rag-ai-agents-business-guide/</loc>
     <lastmod>2026-08-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.armantech.om/blog/rag-ai-agents-business-guide/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.armantech.om/blog/ar/rag-ai-agents-business-guide/"/>
+  </url>
+  <url>
+    <loc>https://www.armantech.om/blog/ar/rag-ai-agents-business-guide/</loc>
+    <lastmod>2026-08-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.armantech.om/blog/rag-ai-agents-business-guide/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.armantech.om/blog/ar/rag-ai-agents-business-guide/"/>
   </url>
 </urlset>

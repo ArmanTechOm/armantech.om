@@ -143,6 +143,9 @@
       if (dict[key]) el.innerHTML = dict[key];
     });
 
+    var blogLink = document.querySelector('[data-i18n="nav.blog"]');
+    if (blogLink) blogLink.href = lang === "ar" ? "/blog/ar/" : "/blog/";
+
     document.querySelectorAll("[data-lang-label]").forEach(function (el) {
       el.classList.toggle("active", el.getAttribute("data-lang-label") === lang);
     });
