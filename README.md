@@ -20,11 +20,15 @@ cd site && python3 -m http.server 8080
 
 The site runs on a DigitalOcean droplet (nginx, Ubuntu) behind Cloudflare.
 
-```sh
-./deploy/deploy.sh <droplet-ip>
-```
+**Push to `main` on GitHub (`ArmanTechOm/armantech.om`) — that's the deploy.**
+A cron on the droplet (`/etc/cron.d/armantech-deploy`) pulls `main` and syncs
+`site/` to `/var/www/armantech/` every 5 minutes.
 
-Requires the `armantech_deploy` SSH key (`~/.ssh/armantech_deploy`).
+Do NOT use `./deploy/deploy.sh` for the site — the cron overwrites whatever it
+uploads within minutes. It remains only for pushing nginx config changes
+(`deploy/nginx-armantech.conf`), which the cron does not manage.
+
+SSH access uses the `armantech_deploy` key (`~/.ssh/armantech_deploy`).
 
 ## DNS (Cloudflare)
 
