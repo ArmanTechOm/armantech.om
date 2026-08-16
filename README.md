@@ -32,8 +32,8 @@ Point these records at the droplet IP (proxied ☁️):
 
 | Type | Name | Content       |
 |------|------|---------------|
-| A    | @    | `<droplet-ip>` |
-| A    | www  | `<droplet-ip>` |
+| A    | @    | `143.110.182.73` |
+| A    | www  | `143.110.182.73` |
 
 With Cloudflare proxy enabled, set SSL/TLS mode to **Flexible** (origin serves HTTP)
 or install a Cloudflare Origin Certificate on the droplet and use **Full (strict)**.
