@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Page not found — ArmanTech</title>
+  <meta name="robots" content="noindex">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles.css?v=3">
+  <style>
+    .nf-wrap { min-height: calc(100vh - 160px); display: grid; place-items: center; text-align: center; padding: 60px 0; }
+    .nf-code {
+      font-family: var(--font-latin); font-size: clamp(6rem, 18vw, 11rem); font-weight: 700; line-height: 1;
+      background: var(--grad); -webkit-background-clip: text; background-clip: text; color: transparent;
+    }
+    .nf-title { font-size: clamp(1.4rem, 3vw, 2rem); margin: 18px 0 8px; }
+    .nf-title-ar { font-family: var(--font-arabic); font-size: clamp(1.2rem, 2.5vw, 1.6rem); color: var(--text-dim); margin-bottom: 34px; direction: rtl; }
+    .nf-actions { display: flex; gap: 14px; justify-content: center; flex-wrap: wrap; }
+  </style>
+</head>
+<body>
+  <div class="aurora" aria-hidden="true">
+    <div class="aurora-blob aurora-1"></div>
+    <div class="aurora-blob aurora-2"></div>
+  </div>
+  <div class="grid-overlay" aria-hidden="true"></div>
+
+  <main class="container">
+    <div class="nf-wrap">
+      <div>
+        <div class="nf-code">404</div>
+        <h1 class="nf-title">This page doesn't exist.</h1>
+        <p class="nf-title-ar">هذه الصفحة غير موجودة.</p>
+        <div class="nf-actions">
+          <a class="btn btn-primary" href="/">Back to home · الصفحة الرئيسية</a>
+          <a class="btn btn-ghost" href="/blog/">Read the blog · المدونة</a>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <span class="footer-brand">Arman<span class="logo-accent">Tech</span></span>
+      <span class="footer-copy">© 2026 ArmanTech · Muscat, Sultanate of Oman</span>
+    </div>
+  </footer>
+</body>
+</html>
