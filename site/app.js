@@ -7,6 +7,7 @@
       "nav.services": "Services",
       "nav.process": "Process",
       "nav.about": "About",
+      "nav.blog": "Blog",
       "nav.contact": "Contact",
       "nav.cta": "Start a project",
 
@@ -67,6 +68,7 @@
       "nav.services": "خدماتنا",
       "nav.process": "منهجيتنا",
       "nav.about": "من نحن",
+      "nav.blog": "المدونة",
       "nav.contact": "تواصل معنا",
       "nav.cta": "ابدأ مشروعك",
 
