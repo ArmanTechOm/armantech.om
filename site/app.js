@@ -59,7 +59,17 @@
 
       "contact.title": "Have an idea? Let’s build it.",
       "contact.sub": "Tell us about your project — we’ll get back to you within one business day.",
-      "contact.cta": "team@armantech.om",
+      "contact.alt": "Prefer to reach out directly?",
+
+      "form.name": "Name",
+      "form.email": "Email",
+      "form.phone": "Phone / WhatsApp",
+      "form.optional": "(optional)",
+      "form.message": "Tell us about your project",
+      "form.submit": "Send message",
+      "form.sending": "Sending…",
+      "form.success": "Thanks! Your message is on its way — we’ll reply within one business day.",
+      "form.error": "Something went wrong. Please email team@armantech.om or message us on WhatsApp.",
 
       "footer.rights": "© 2026 ArmanTech. All rights reserved.",
       "footer.loc": "Muscat, Sultanate of Oman"
@@ -121,7 +131,17 @@
 
       "contact.title": "لديك فكرة؟ لنبنِها معاً.",
       "contact.sub": "حدّثنا عن مشروعك — وسنعاود التواصل معك خلال يوم عمل واحد.",
-      "contact.cta": "team@armantech.om",
+      "contact.alt": "تفضّل التواصل المباشر؟",
+
+      "form.name": "الاسم",
+      "form.email": "البريد الإلكتروني",
+      "form.phone": "الهاتف / واتساب",
+      "form.optional": "(اختياري)",
+      "form.message": "حدّثنا عن مشروعك",
+      "form.submit": "أرسل الرسالة",
+      "form.sending": "جارٍ الإرسال…",
+      "form.success": "شكراً لك! وصلتنا رسالتك — وسنردّ عليك خلال يوم عمل واحد.",
+      "form.error": "حدث خطأ ما. راسلنا على team@armantech.om أو عبر واتساب.",
 
       "footer.rights": "© 2026 أرمان تك. جميع الحقوق محفوظة.",
       "footer.loc": "مسقط، سلطنة عُمان"
@@ -175,6 +195,42 @@
     });
   }, { threshold: 0.12 });
   document.querySelectorAll(".reveal").forEach(function (el) { observer.observe(el); });
+
+  // Contact form (Web3Forms)
+  var form = document.getElementById("contactForm");
+  if (form) {
+    form.addEventListener("submit", function (e) {
+      e.preventDefault();
+      if (!form.checkValidity()) { form.reportValidity(); return; }
+
+      var btn = document.getElementById("cfSubmit");
+      var status = document.getElementById("cfStatus");
+      btn.disabled = true;
+      btn.textContent = translations[current]["form.sending"];
+      status.textContent = "";
+      status.className = "form-status";
+
+      fetch("https://api.web3forms.com/submit", {
+        method: "POST",
+        body: new FormData(form)
+      })
+        .then(function (res) { return res.json(); })
+        .then(function (json) {
+          if (!json.success) throw new Error(json.message);
+          form.reset();
+          status.textContent = translations[current]["form.success"];
+          status.classList.add("ok");
+        })
+        .catch(function () {
+          status.textContent = translations[current]["form.error"];
+          status.classList.add("err");
+        })
+        .finally(function () {
+          btn.disabled = false;
+          btn.textContent = translations[current]["form.submit"];
+        });
+    });
+  }
 
   // Card cursor glow
   document.querySelectorAll(".card").forEach(function (card) {
