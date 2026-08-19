@@ -40,6 +40,22 @@
     <xhtml:link rel="alternate" hreflang="ar" href="https://www.armantech.om/blog/ar/"/>
   </url>
   <url>
+    <loc>https://www.armantech.om/blog/web-app-vs-mobile-app-oman/</loc>
+    <lastmod>2026-08-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.armantech.om/blog/web-app-vs-mobile-app-oman/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.armantech.om/blog/ar/web-app-vs-mobile-app-oman/"/>
+  </url>
+  <url>
+    <loc>https://www.armantech.om/blog/ar/web-app-vs-mobile-app-oman/</loc>
+    <lastmod>2026-08-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.armantech.om/blog/web-app-vs-mobile-app-oman/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.armantech.om/blog/ar/web-app-vs-mobile-app-oman/"/>
+  </url>
+  <url>
     <loc>https://www.armantech.om/blog/ai-logistics-supply-chain-oman/</loc>
     <lastmod>2026-08-16</lastmod>
     <changefreq>monthly</changefreq>
