@@ -40,6 +40,22 @@
     <xhtml:link rel="alternate" hreflang="ar" href="https://www.armantech.om/blog/ar/"/>
   </url>
   <url>
+    <loc>https://www.armantech.om/blog/ai-retail-ecommerce-oman/</loc>
+    <lastmod>2026-08-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.armantech.om/blog/ai-retail-ecommerce-oman/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.armantech.om/blog/ar/ai-retail-ecommerce-oman/"/>
+  </url>
+  <url>
+    <loc>https://www.armantech.om/blog/ar/ai-retail-ecommerce-oman/</loc>
+    <lastmod>2026-08-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.armantech.om/blog/ai-retail-ecommerce-oman/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.armantech.om/blog/ar/ai-retail-ecommerce-oman/"/>
+  </url>
+  <url>
     <loc>https://www.armantech.om/blog/web-app-vs-mobile-app-oman/</loc>
     <lastmod>2026-08-19</lastmod>
     <changefreq>monthly</changefreq>
