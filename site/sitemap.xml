@@ -151,4 +151,20 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.armantech.om/blog/choosing-software-development-vendor-oman/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://www.armantech.om/blog/ar/choosing-software-development-vendor-oman/"/>
   </url>
+  <url>
+    <loc>https://www.armantech.om/blog/ai-healthcare-oman/</loc>
+    <lastmod>2026-08-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.armantech.om/blog/ai-healthcare-oman/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.armantech.om/blog/ar/ai-healthcare-oman/"/>
+  </url>
+  <url>
+    <loc>https://www.armantech.om/blog/ar/ai-healthcare-oman/</loc>
+    <lastmod>2026-08-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.armantech.om/blog/ai-healthcare-oman/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.armantech.om/blog/ar/ai-healthcare-oman/"/>
+  </url>
 </urlset>
