@@ -183,4 +183,20 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.armantech.om/blog/pdpl-compliance-guide-oman/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://www.armantech.om/blog/ar/pdpl-compliance-guide-oman/"/>
   </url>
+  <url>
+    <loc>https://www.armantech.om/blog/cloud-vs-onpremise-oman-guide/</loc>
+    <lastmod>2026-09-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.armantech.om/blog/cloud-vs-onpremise-oman-guide/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.armantech.om/blog/ar/cloud-vs-onpremise-oman-guide/"/>
+  </url>
+  <url>
+    <loc>https://www.armantech.om/blog/ar/cloud-vs-onpremise-oman-guide/</loc>
+    <lastmod>2026-09-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.armantech.om/blog/cloud-vs-onpremise-oman-guide/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.armantech.om/blog/ar/cloud-vs-onpremise-oman-guide/"/>
+  </url>
 </urlset>
