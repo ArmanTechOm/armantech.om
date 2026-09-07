@@ -40,6 +40,22 @@
     <xhtml:link rel="alternate" hreflang="ar" href="https://www.armantech.om/blog/ar/"/>
   </url>
   <url>
+    <loc>https://www.armantech.om/blog/software-requirements-brief-oman/</loc>
+    <lastmod>2026-09-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.armantech.om/blog/software-requirements-brief-oman/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.armantech.om/blog/ar/software-requirements-brief-oman/"/>
+  </url>
+  <url>
+    <loc>https://www.armantech.om/blog/ar/software-requirements-brief-oman/</loc>
+    <lastmod>2026-09-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.armantech.om/blog/software-requirements-brief-oman/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.armantech.om/blog/ar/software-requirements-brief-oman/"/>
+  </url>
+  <url>
     <loc>https://www.armantech.om/blog/ai-tourism-hospitality-oman/</loc>
     <lastmod>2026-09-04</lastmod>
     <changefreq>monthly</changefreq>
