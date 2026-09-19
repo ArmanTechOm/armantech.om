@@ -40,6 +40,22 @@
     <xhtml:link rel="alternate" hreflang="ar" href="https://www.armantech.om/blog/ar/"/>
   </url>
   <url>
+    <loc>https://www.armantech.om/blog/software-development-timeline-oman/</loc>
+    <lastmod>2026-09-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.armantech.om/blog/software-development-timeline-oman/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.armantech.om/blog/ar/software-development-timeline-oman/"/>
+  </url>
+  <url>
+    <loc>https://www.armantech.om/blog/ar/software-development-timeline-oman/</loc>
+    <lastmod>2026-09-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.armantech.om/blog/software-development-timeline-oman/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.armantech.om/blog/ar/software-development-timeline-oman/"/>
+  </url>
+  <url>
     <loc>https://www.armantech.om/blog/ai-banking-financial-services-oman/</loc>
     <lastmod>2026-09-16</lastmod>
     <changefreq>monthly</changefreq>
